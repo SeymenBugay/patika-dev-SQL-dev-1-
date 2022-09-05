@@ -1,0 +1,5 @@
+--SElECT DISTINCT replacement_cost FROM film ;
+--SELECT COUNT(DISTINCT replacement_cost) FROM film ;
+--SELECT COUNT(*) FROM film WHERE title LIKE 'T%' AND rating = 'G'; 
+---SELECT COUNT(*) from country WHERE country LIKE '_____';
+SELECT COUNT(*) from city WHERE city LIKE '%R' OR city LIKE '%r';
