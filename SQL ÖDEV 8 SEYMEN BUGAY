@@ -1,0 +1,65 @@
+CREATE TABLE employee (id INTEGER , name VARCHAR(50), birthday DATE, email VARCHAR(100)) ;
+
+insert into employee (first_name, last_name, birthday) values ('Chick', 'Tineman', '3/10/2000');
+insert into employee (first_name, last_name, birthday) values ('Elton', 'Deerness', '2/12/2009');
+insert into employee (first_name, last_name, birthday) values ('Sydelle', 'Drakes', '3/13/2002');
+insert into employee (first_name, last_name, birthday) values ('Kearney', 'Dax', '7/2/2014');
+insert into employee (first_name, last_name, birthday) values ('Teador', 'Staddom', '11/14/2011');
+insert into employee (first_name, last_name, birthday) values ('Hollyanne', 'Pavie', '6/19/2009');
+insert into employee (first_name, last_name, birthday) values ('Aeriel', 'Climson', '7/14/2002');
+insert into employee (first_name, last_name, birthday) values ('Dasya', 'Cortnay', '4/5/2021');
+insert into employee (first_name, last_name, birthday) values ('Kylynn', 'Vakhrushev', '12/30/2015');
+insert into employee (first_name, last_name, birthday) values ('Hedi', 'Cronin', '7/5/2014');
+insert into employee (first_name, last_name, birthday) values ('Tim', 'Menloe', '11/25/2003');
+insert into employee (first_name, last_name, birthday) values ('Tressa', 'Claus', '10/22/2014');
+insert into employee (first_name, last_name, birthday) values ('Vilma', 'Orr', '11/28/2003');
+insert into employee (first_name, last_name, birthday) values ('Abran', 'MacGaughy', '6/28/2015');
+insert into employee (first_name, last_name, birthday) values ('Ingram', 'Barense', '1/15/2019');
+insert into employee (first_name, last_name, birthday) values ('Kalinda', 'Marien', '11/24/2006');
+insert into employee (first_name, last_name, birthday) values ('Virginie', 'O''Moylane', '11/22/2000');
+insert into employee (first_name, last_name, birthday) values ('Evy', 'Pettus', '11/28/2003');
+insert into employee (first_name, last_name, birthday) values ('Yolande', 'Lukacs', null);
+insert into employee (first_name, last_name, birthday) values ('Elisabetta', 'Faltin', null);
+insert into employee (first_name, last_name, birthday) values ('Tamarra', 'Nollet', '12/25/2002');
+insert into employee (first_name, last_name, birthday) values ('Nedda', 'Rushford', '2/25/2003');
+insert into employee (first_name, last_name, birthday) values ('Hugo', 'Salla', null);
+insert into employee (first_name, last_name, birthday) values ('Olivero', 'Oughton', '3/3/2002');
+insert into employee (first_name, last_name, birthday) values ('Theressa', 'Creeghan', '5/26/2012');
+insert into employee (first_name, last_name, birthday) values ('Marlo', 'Maxweell', '8/1/2012');
+insert into employee (first_name, last_name, birthday) values ('Paulie', 'Heed', '9/23/2010');
+insert into employee (first_name, last_name, birthday) values ('Arnaldo', 'Saiz', null);
+insert into employee (first_name, last_name, birthday) values ('Hoyt', 'Konig', null);
+insert into employee (first_name, last_name, birthday) values ('Wesley', 'Galle', '7/13/2005');
+insert into employee (first_name, last_name, birthday) values ('Hew', 'Radwell', '1/31/2007');
+insert into employee (first_name, last_name, birthday) values ('Hanna', 'Piken', '6/18/2006');
+insert into employee (first_name, last_name, birthday) values ('Ichabod', 'Lacoste', '7/12/2000');
+insert into employee (first_name, last_name, birthday) values ('Lonee', 'Wellstood', '5/8/2015');
+insert into employee (first_name, last_name, birthday) values ('Mario', 'O''Fergus', '6/12/2001');
+insert into employee (first_name, last_name, birthday) values ('Maribeth', 'Dockery', '12/18/2001');
+insert into employee (first_name, last_name, birthday) values ('Deeanne', 'Evenett', '6/6/2007');
+insert into employee (first_name, last_name, birthday) values ('Irene', 'Tomeo', '12/2/2015');
+insert into employee (first_name, last_name, birthday) values ('Zedekiah', 'Calven', '3/10/2020');
+insert into employee (first_name, last_name, birthday) values ('Zechariah', 'Ashton', '7/17/2019');
+insert into employee (first_name, last_name, birthday) values ('Opaline', 'Ocheltree', '2/20/2003');
+insert into employee (first_name, last_name, birthday) values ('Joanie', 'Mebius', '7/14/2012');
+insert into employee (first_name, last_name, birthday) values ('Aylmer', 'Hardison', null);
+insert into employee (first_name, last_name, birthday) values ('Simmonds', 'Conew', '5/19/2013');
+insert into employee (first_name, last_name, birthday) values ('Millisent', 'Siebert', '5/2/2000');
+insert into employee (first_name, last_name, birthday) values ('Ossie', 'Ondrusek', '1/18/2016');
+insert into employee (first_name, last_name, birthday) values ('Mathian', 'Minnis', '4/9/2011');
+insert into employee (first_name, last_name, birthday) values ('Phil', 'Ferreli', '7/6/2018');
+insert into employee (first_name, last_name, birthday) values ('Stafani', 'Testo', '2/7/2010');
+insert into employee (first_name, last_name, birthday) values ('Merrielle', 'Thorpe', '2/26/2006');
+
+UPDATE employee 
+
+   SET first_name = 'Emrah safa' 
+
+   WHERE irst_name =merrielle ;
+   
+   UPDATE employee 
+
+ 
+   
+   
+   *DELETE FROM employee WHERE first_name='Phil';
